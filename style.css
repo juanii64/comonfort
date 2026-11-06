@@ -261,3 +261,39 @@ footer a:hover {
     background: #1454b5;
   }
 }
+
+
+
+
+html,
+body {
+    overflow-x: hidden;
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.swiper {
+    width: 100%;
+}
+
+.fb-page,
+.fb-page span,
+.fb-page iframe {
+    max-width: 100% !important;
+}
+
+@media (max-width: 768px) {
+
+    .fb-page,
+    .fb-page iframe {
+        width: 100% !important;
+    }
+
+    header a {
+        font-size: 12px;
+    }
+}
